@@ -1,14 +1,14 @@
 {
   "bot-account": {
-    "username": "bot",
-    "password": "your_password",
-    "type": "microsoft"
+    "username": "pramithpc",
+    "password": "pramith@09",
+    "type": "Tlouncher"
   },
 
   "server": {
-    "ip": "localhost",
-    "port": 25565,
-    "version": "1.19.3"
+    "ip": "RenagadeOS.aternos.me",
+    "port": 59138,
+    "version": "1.20.2"
   },
 
   "position": {
@@ -25,19 +25,19 @@
     },
 
     "anti-afk": {
-      "enabled": false,
-      "sneak": false,
-      "jump": false,
-      "rotate": false,
+      "enabled": true,
+      "sneak": true,
+      "jump": true,
+      "rotate": true,
 
       "hit": {
-        "enabled": false,
-        "delay": 1000,
-        "attack-mobs": false
+        "enabled": true,
+        "delay": 10,
+        "attack-mobs": true
       },
 
       "circle-walk": {
-        "enabled": false,
+        "enabled": true,
         "radius": 2
       }
     },
